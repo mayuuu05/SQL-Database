@@ -55,7 +55,7 @@ CREATE TABLE "employee" (
 
   ```
 
-  ### 3. Retrieve Employee Data
+### 3. Retrieve Employee Data
   - Retrieve all employee information:
 
     ``` sql
