@@ -96,12 +96,12 @@ CREATE TABLE "employee" (
 ### 4. Update Employee Records
 
 - Change the salary of an employee with ID 100:
-    ```
+    ```sql
     UPDATE employee SET salary = 50000 WHERE id = 100;
 
     ```
 - Update the address for employees in the 'Sales' role:
-    ```
+    ```sql
     UPDATE employee SET address = "456 Market St" WHERE role = "Sales";
 
     ```
@@ -110,7 +110,7 @@ CREATE TABLE "employee" (
 ### 5. Delete Employee Records
     
 - Remove an employee with ID 101:
-    ```
+    ```sql
     DELETE FROM employee WHERE id = 101;
 
     ```
