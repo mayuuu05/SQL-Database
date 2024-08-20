@@ -118,7 +118,7 @@ CREATE TABLE "employee" (
 
 
 - Delete all employees under 20 (assuming it's not a valid age):
-    ```
+    ```sql
     DELETE FROM employee WHERE age < 20;
 
     ```
